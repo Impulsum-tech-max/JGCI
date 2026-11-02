@@ -40,3 +40,14 @@ document.addEventListener('click', (event) => {
         menuIcon.textContent = 'menu';
     }
     });
+
+    const welcomePopup = document.querySelector('.welcome-popup');
+const welcomeClose = document.querySelector('.welcome-close');
+
+function closeWelcomePopup() {
+    welcomePopup.classList.add('hide');
+}
+
+welcomeClose.addEventListener('click', closeWelcomePopup);
+
+setTimeout(closeWelcomePopup, 5000);

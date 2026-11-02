@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Jubilee Gospel Centre</title>
+    <link rel="stylesheet" href="/STYLING/gallery.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+
+    <script src="/INTERACTIVITY/index.js" defer></script>
+    <script src="/INTERACTIVITY/gallery.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="/IMAGES/jubileeLogo.png" alt="Jubilee Gospel Centre Logo">
+            </div>
+
+            <div class="name">
+                <h1>Jubilee Gospel Centre Int'l</h1>
+                <p>City of Increase</p>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="programmes.html">Programmes</a></li>
+                <li><a href="gallery.html">Gallery </a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="menu" type="button" aria-label="Open navigation menu" aria-expanded="false">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+
+    </header>
+
+    <main>
+        <h2>The Experience</h2>
+        <p>
+            A visual insight into the atmosphere of worship, fellowship, and the life of wealthy and healthy church.
+        </p>
+
+        <section class="gallery">
+            <div class="gallery-grid"></div>
+        </section>
+
+<div class="lightbox" role="dialog" aria-modal="true"
+     aria-label="Image viewer" hidden>
+
+    <button class="lightbox-close" type="button"
+            aria-label="Close image viewer">
+        &times;
+    </button>
+
+    <button class="lightbox-prev" type="button"
+            aria-label="Previous image">
+        &#10094;
+    </button>
+
+    <img class="lightbox-image" src="" alt="">
+
+    <button class="lightbox-next" type="button"
+            aria-label="Next image">
+        &#10095;
+    </button>
+
+    <p class="lightbox-counter"></p>
+</div>        
+    </main>
+
+        <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="/IMAGES/jubileeLogo.png" alt="Jubilee Gospel Centre Logo">
+                <h2>Jubilee Gospel Centre International</h2>
+                <h3>City of Increase</h3>
+                <p>...influencing the world with the word.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>
+                    Headquarters — Calabar
+                </h3>
+                <p>29 White House Street, Calabar, Cross River State.</p>
+
+                <h3>
+                    Branch — Uyo
+                </h3>
+                <p>125 Aka Etinan Road, Uyo, Akwa Ibom State.</p>
+
+                <h3 id="contact">Telephone</h3>
+                <p>
+                    +234 706 185 7882 <br>
+                    +234 706 568 3388
+                </p>
+            </div>
+            <div class="socials">
+                <h2>Follow Us</h2>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100070766746958" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="/IMAGES/facebook-brands-solid-full.svg" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.instagram.com/jubileegospelchurch?mdxt=MW5vcTh4bzR3Mjhhdw==" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="/IMAGES/instagram-brands-solid-full.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-motto">I can do all things through Christ who strengthens me. <br>
+                — Philippians 4:13
+            </div>
+
+            <p class="footer-copyright">
+                &copy; 2026 Jubilee Gospel Centre International. All rights reserved.
+            </p>
+        </div>
+    </footer>
+    
+</body>

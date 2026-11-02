@@ -1060,3 +1060,31 @@ header nav ul li a {
     visibility: hidden;
     pointer-events: none;
 }
+
+@media (max-width: 767px) {
+    .welcome-popup {
+        width: 90vw;
+        aspect-ratio: auto;
+        min-height: 0;
+        max-height: 90dvh;
+        overflow-y: auto;
+        padding: 3rem 1.25rem 2rem;
+        gap: 0.5rem;
+    }
+
+    .welcome-logo {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 0.5rem;
+    }
+
+    .welcome-popup p {
+        font-size: clamp(1.35rem, 6vw, 2rem);
+        line-height: 1.3;
+    }
+
+    .welcome-close {
+        top: 12px;
+        right: 15px;
+    }
+}

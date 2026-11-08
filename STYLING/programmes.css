@@ -464,7 +464,7 @@ main {
 /* EVENT FLYER */
 .event-flyer {
     width: 100%;
-    aspect-ratio: 720 / 362;
+    aspect-ratio: 1672 / 941;
     overflow: hidden;
 }
 
@@ -498,6 +498,13 @@ main {
 }
 
 .event-details p {
+    display: grid;
+    grid-template-columns: 75px minmax(0, 1fr);
+    align-items: start;
+
+    min-width: 0;
+    box-sizing: border-box;
+
     font-family: var(--body-font);
     font-size: var(--text-normal);
     font-weight: var(--font-medium);
@@ -512,8 +519,15 @@ main {
 .event-details p strong {
     color: var(--white-color);
     font-weight: var(--font-bold);
-    display: inline-block;
-    min-width: 75px;
+}
+
+.event-details .detail-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.specific{
+    color: goldenrod;
 }
 
 footer {

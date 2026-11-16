@@ -464,7 +464,7 @@ main {
 /* EVENT FLYER */
 .event-flyer {
     width: 100%;
-    aspect-ratio: 1672 / 941;
+    aspect-ratio: 1280 / 638;
     overflow: hidden;
 }
 
